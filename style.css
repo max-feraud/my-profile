@@ -4,6 +4,16 @@ body{
 	font-family: Arial, serif;
 }
 
+.btn-blue {
+    background-color:  rgb(7 39 244);
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none; /* Pour supprimer le soulignement du lien */
+    display: inline-block; /* Pour que le lien s'affiche comme un bloc */
+    border-radius: 5px;
+}
+
+
 h1 {
 
 	color: rgb(246 245 247);
@@ -22,7 +32,7 @@ a1{
 h2 {
 
 	color: rgb(246 245 247);
-    font-size: 34px;
+    font-size: 24px;
     font-weight: bold;
     font-family: Arial;
 }
@@ -63,7 +73,6 @@ a:hover{
     text-align: center;
 }
 
-}
 .btn-blue{
 	background-color: rgb(7 39 244);
 	color:white;
@@ -71,5 +80,5 @@ a:hover{
 }
 
 .image-circle {
-	border-radius:50%;
+	border-radius: 50%;
 }
